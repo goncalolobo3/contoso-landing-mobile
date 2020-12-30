@@ -1,0 +1,270 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+:root {
+    --tomato: tomato;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Typography */
+h1 {
+    color: #ffffff;
+    font-family: "Segoe UI Light";
+    font-size: 48px;
+    font-weight: lighter;
+    font-style: normal;
+    line-height: 58px;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'SegoeUI';
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 34px;
+}
+
+/* Group-2 */
+.group-2 {
+    background-image: url(../assets/group-2.svg);
+    background-size: cover;
+    height: 759px;
+    margin: 0 0 47px;
+    object-fit: contain;
+    width: 1600px;
+}
+
+/* Icons */
+.ic_mail {
+    height: 32px;
+    margin: 0 10px 92px 26px;
+    object-fit: contain;
+    padding: 9px 5px;
+    position: fixed;
+    right: 82px;
+    top: 40px;
+    width: 32px;
+}
+
+.ic_twitter {
+    height: 32px;
+    margin: 0 0 92px 10px;
+    object-fit: contain;
+    padding: 8px 5px 6.9px 6px;
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    width: 32px;
+}
+
+/* Logo */
+.logo {
+    left: 815px;
+    margin: 0 539px 29px 0;
+    object-fit: contain;
+    position: absolute;
+    top: 164px;
+}
+
+.Curabitur-lobortis-i {
+    color: #ffffff;
+    font-family: 'Segoe UI Light';
+    font-size: 48px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    left: 815px;
+    width: 645px;
+    height: 116px;
+    margin: 29px 26px 30px 0;
+    position: absolute;
+    top: 235px; 
+}
+  
+/* Vestibulum paragraph */
+.Vestibulum-rutrum-qu {
+    color: rgba(255, 255, 255, 0.87);
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    height: 68px;
+    line-height: 1.42;
+    letter-spacing: normal;
+    left: 815px;
+    margin: 30px 26px 48px 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 381px;
+    width: 645px;
+  }
+
+/* Iphone final */
+.iphones-final {
+    margin: 74px 952px 0 274px;
+    object-fit: contain;
+}
+
+.phones-mobile {
+    display: none;
+}
+
+/* Text Area */
+.Rectangle {
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #9fa3a7;
+    height: 55px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    left: 815px;
+    margin: 0 20px 0 0;
+    padding: 15px 233px 16px 20px;
+    position: absolute;
+    top: 497px;
+    width: 400px;
+}
+
+.button {
+    background-color: var(--tomato);
+    border: transparent;
+    border-radius: 0 8px 8px 0;
+    color: #ffffff;
+    font-family: 'Segoe UI BOLD';
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    left: 1113px;
+    height: 55px;
+    position: absolute;
+    padding: 18px 37px;
+    top: 497px;
+    width: 122px;
+    z-index: 2;   
+}
+
+/* Portrait mobile media query */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+    .group-2 {
+        background-image: url(../assets/group-2.svg);
+        background-size: cover;
+        height: 568px;
+        object-fit: contain;
+        width: 320px;
+    }
+
+    .ic_mail {
+        display: none;
+    }
+
+    .ic_twitter {
+        display: none;
+    }
+
+    .logo {
+        left: 94px;
+        object-fit: contain;
+        position: absolute;
+        top: 40px;
+    }
+
+    .iphones-final{
+        display: none;
+    }
+
+    .phones-mobile {
+        display: block;
+        height: 184px;
+        margin: 9px 29px 23px 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 91px;
+        width: 221px;
+    }
+
+    .Curabitur-lobortis-i {
+        color: #ffffff;
+        font-family: 'Segoe UI Light';
+        font-size: 24px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.17;
+        letter-spacing: normal;
+        left: 20px;
+        height: 84px;
+        margin: 23px 0px 9px 0;
+        position: absolute;
+        text-align: center;
+        top: 298px;
+        width: 280px;
+    }
+
+    .Vestibulum-rutrum-qu {
+        color: rgba(255, 255, 255, 0.87);
+        font-family: 'Segoe UI';
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        height: 48px;
+        left: 20px;
+        letter-spacing: normal;
+        line-height: 1.5;
+        position: absolute;
+        opacity: 0.7;
+        text-align: center;
+        top: 391px;
+        width: 280px;
+    }
+
+    .Rectangle {
+        background-color: #ffffff;
+        border-radius: 8px;
+        color: #9fa3a7;
+        font-family: 'Segoe UI';
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        height: 45px;
+        letter-spacing: normal;
+        left: 20px;
+        line-height: 1.5;
+        margin: 26px 0px 0 0;
+        padding: 10px 151px 11px 11px;
+        position: absolute;
+        top: 465px;
+        width: 280px;
+    }
+
+    .button {
+        background-color: var(--tomato);
+        border-radius: 0 8px 8px 0;  
+        height: 45px;
+        left: 20px;
+        margin: 26px 0 0 188px;
+        padding: 0 0px 0 0;
+        position: absolute;
+        top: 465px;
+        width: 92px;   
+    }
+}
